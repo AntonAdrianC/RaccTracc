@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:color ="transparent"
+
+    <item
+        android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:id="@+id/calculator"
+        android:title="Calculator"
+        android:icon="@drawable/baseline_calculate_24"/>
+    <item
+        android:id="@+id/optNotes"
+        android:title="@string/notes"
+        android:icon="@drawable/baseline_notes_24"
+        />
+    <item
+    android:id="@+id/settings"
+    android:title="@string/clear_values"
+    android:icon="@drawable/baseline_delete_outline_24"/>
+    <item
+        android:id="@+id/log_out"
+        android:title="@string/log_out"
+        android:icon="@drawable/baseline_logout_24"
+        />
+
+
+</menu>
